@@ -1,0 +1,11 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionCodeInput } from './FusionCodeInput.vue';
+declare const meta: Meta<typeof FusionCodeInput>;
+export default meta;
+type Story = StoryObj<typeof FusionCodeInput>;
+export declare const Default: Story;
+export declare const WithError: Story;
+export declare const FourDigitCode: Story;
+export declare const Disabled: Story;
+export declare const Sizes: Story;
+export declare const Variants: Story;
