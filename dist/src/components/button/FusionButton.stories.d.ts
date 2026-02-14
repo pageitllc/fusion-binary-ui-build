@@ -1,0 +1,14 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionButton } from './FusionButton.vue';
+declare const meta: Meta<typeof FusionButton>;
+export default meta;
+type Story = StoryObj<typeof FusionButton>;
+export declare const Solid: Story;
+export declare const OutlineWithIcon: Story;
+export declare const SubtleWithTooltip: Story;
+export declare const Ghost: Story;
+export declare const Danger: Story;
+export declare const Loading: Story;
+export declare const Disabled: Story;
+export declare const AsLink: Story;
+export declare const FixedWidthButton: Story;

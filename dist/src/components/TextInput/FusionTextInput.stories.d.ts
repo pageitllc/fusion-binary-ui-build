@@ -1,0 +1,15 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionTextInput } from './FusionTextInput.vue';
+declare const meta: Meta<typeof FusionTextInput>;
+export default meta;
+type Story = StoryObj<typeof FusionTextInput>;
+export declare const Default: Story;
+export declare const WithError: Story;
+export declare const Large: Story;
+export declare const NumberInput: Story;
+export declare const Required: Story;
+export declare const SubtleVariant: Story;
+export declare const PlainVariant: Story;
+export declare const WithLeftIcon: Story;
+export declare const WithRightIcon: Story;
+export declare const WithAvatar: Story;
