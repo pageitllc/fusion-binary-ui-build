@@ -1,0 +1,10 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionSidebar } from './FusionSidebar.vue';
+declare const meta: Meta<typeof FusionSidebar>;
+export default meta;
+type Story = StoryObj<typeof FusionSidebar>;
+export declare const Default: Story;
+export declare const ProjectActive: Story;
+export declare const WithBadges: Story;
+export declare const CustomStyled: Story;
+export declare const Empty: Story;
