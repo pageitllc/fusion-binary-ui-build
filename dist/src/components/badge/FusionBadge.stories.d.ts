@@ -1,0 +1,18 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionBadge } from './FusionBadge.vue';
+declare const meta: Meta<typeof FusionBadge>;
+export default meta;
+type Story = StoryObj<typeof FusionBadge>;
+export declare const Solid: Story;
+export declare const Subtle: Story;
+export declare const Outline: Story;
+export declare const Ghost: Story;
+export declare const SuccessBadge: Story;
+export declare const DangerBadge: Story;
+export declare const WarningBadge: Story;
+export declare const InfoBadge: Story;
+export declare const PublishedBadge: Story;
+export declare const DraftBadge: Story;
+export declare const PublicBadge: Story;
+export declare const PrivateBadge: Story;
+export declare const AllThemes: Story;
