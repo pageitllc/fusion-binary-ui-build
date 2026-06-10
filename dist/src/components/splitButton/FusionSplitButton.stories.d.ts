@@ -1,0 +1,10 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionSplitButton } from './FusionSplitButton.vue';
+declare const meta: Meta<typeof FusionSplitButton>;
+export default meta;
+type Story = StoryObj<typeof FusionSplitButton>;
+export declare const Default: Story;
+export declare const Variants: Story;
+export declare const CustomColor: Story;
+export declare const WithAvatars: Story;
+export declare const Disabled: Story;

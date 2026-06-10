@@ -1,0 +1,11 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FuAvatar } from './FuAvatar.vue';
+import { default as FuAvatarGroup } from './FuAvatarGroup.vue';
+declare const meta: Meta<typeof FuAvatar>;
+export default meta;
+type Story = StoryObj<typeof FuAvatar>;
+export declare const WithName: Story;
+export declare const ImageOnly: Story;
+export declare const WithStatus: Story;
+export declare const Group: StoryObj<typeof FuAvatarGroup>;
+export declare const Editable: Story;
