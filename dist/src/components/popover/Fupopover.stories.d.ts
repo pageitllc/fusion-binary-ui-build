@@ -1,0 +1,11 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FuPopover } from './FuPopover.vue';
+declare const meta: Meta<typeof FuPopover>;
+export default meta;
+type Story = StoryObj<typeof FuPopover>;
+export declare const Default: Story;
+export declare const BodyScrolls: Story;
+export declare const StickyHeaderFooter: Story;
+export declare const NonStickyHeaderFooter: Story;
+export declare const EmojiPicker: Story;
+export declare const ProgrammaticControl: Story;
