@@ -1,0 +1,12 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionButtonTab } from './FusionButtonTab.vue';
+declare const meta: Meta<typeof FusionButtonTab>;
+export default meta;
+type Story = StoryObj<typeof meta>;
+export declare const Playground: Story;
+export declare const Stacked: Story;
+export declare const FlexRow: Story;
+export declare const Resizable: Story;
+export declare const Sizes: Story;
+export declare const States: Story;
+export declare const CustomColorAndSlots: Story;
