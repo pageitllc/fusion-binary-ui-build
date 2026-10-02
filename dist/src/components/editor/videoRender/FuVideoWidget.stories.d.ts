@@ -1,0 +1,13 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FuVideoWidget } from './FuVideoRenderer.vue';
+declare const meta: Meta<typeof FuVideoWidget>;
+export default meta;
+type Story = StoryObj<typeof FuVideoWidget>;
+export declare const EmptyState: Story;
+export declare const YouTube: Story;
+export declare const YouTubeShort: Story;
+export declare const Vimeo: Story;
+export declare const Loom: Story;
+export declare const Square: Story;
+export declare const Cinematic: Story;
+export declare const InteractiveEmpty: Story;

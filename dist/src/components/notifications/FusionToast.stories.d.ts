@@ -1,0 +1,10 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionToast } from './FusionToast.vue';
+declare const meta: Meta<typeof FusionToast>;
+export default meta;
+type Story = StoryObj<typeof FusionToast>;
+export declare const Default: Story;
+export declare const Success: Story;
+export declare const Error: Story;
+export declare const Dark: Story;
+export declare const ProgrammaticUsage: Story;
