@@ -1,0 +1,11 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionAlertBanner } from './FusionAlertBanner.vue';
+declare const meta: Meta<typeof FusionAlertBanner>;
+export default meta;
+type Story = StoryObj<typeof FusionAlertBanner>;
+export declare const TrialSessionDismiss: Story;
+export declare const WarningPersistentDismiss: Story;
+export declare const OutageNonDismissible: Story;
+export declare const InfoOnly: Story;
+export declare const AllStacked: Story;
+export declare const TrialPlusWarning: Story;

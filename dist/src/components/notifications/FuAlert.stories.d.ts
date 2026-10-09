@@ -1,0 +1,15 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FuAlert } from './FuAlert.vue';
+declare const meta: Meta<typeof FuAlert>;
+export default meta;
+type Story = StoryObj<typeof FuAlert>;
+export declare const Default: Story;
+export declare const Success: Story;
+export declare const Danger: Story;
+export declare const Warning: Story;
+export declare const Dark: Story;
+export declare const WithIcon: Story;
+export declare const WithBorder: Story;
+export declare const Dismissible: Story;
+export declare const FullFeature: Story;
+export declare const WithRetryAction: Story;
