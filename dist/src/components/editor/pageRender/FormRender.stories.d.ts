@@ -1,0 +1,13 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FuFormRender } from './FormRender.vue';
+declare const meta: Meta<typeof FuFormRender>;
+export default meta;
+type Story = StoryObj<typeof meta>;
+export declare const FullFlow: Story;
+export declare const TwoQuestionsOnOnePage: Story;
+export declare const WithReviewStep: Story;
+export declare const ConditionalQuestionOnSamePage: Story;
+export declare const WithBranding: Story;
+export declare const AnswerPersistsOnBack: Story;
+export declare const MultiColumnImageAndQuestion: Story;
+export declare const MultiColumnVideoAndText: Story;
