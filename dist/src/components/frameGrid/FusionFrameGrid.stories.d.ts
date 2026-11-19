@@ -1,0 +1,13 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionFrameGrid } from './FusionFrameGrid.vue';
+declare const meta: Meta<typeof FusionFrameGrid>;
+export default meta;
+type Story = StoryObj<typeof FusionFrameGrid>;
+export declare const Default: Story;
+export declare const AttachToATaskOrSubtask: Story;
+export declare const SearchableAttachMenu: Story;
+export declare const Photos: Story;
+export declare const NotSelectable: Story;
+export declare const Loading: Story;
+export declare const Empty: Story;
+export declare const TwoColumns: Story;

@@ -1,0 +1,13 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionProgressBar } from './FusionProgressBar.vue';
+declare const meta: Meta<typeof FusionProgressBar>;
+export default meta;
+type Story = StoryObj<typeof FusionProgressBar>;
+export declare const Default: Story;
+export declare const Retainer: Story;
+export declare const SegmentedTasks: Story;
+export declare const Sizes: Story;
+export declare const Tones: Story;
+export declare const Indeterminate: Story;
+export declare const NoText: Story;
+export declare const LiveTimer: Story;

@@ -1,0 +1,11 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionTimePanel } from './FusionTimePanel.vue';
+declare const meta: Meta<typeof FusionTimePanel>;
+export default meta;
+type Story = StoryObj<typeof FusionTimePanel>;
+export declare const Empty: Story;
+export declare const Chosen: Story;
+export declare const Running: Story;
+export declare const Interactive: Story;
+export declare const FromTheTopBar: Story;
+export declare const WithRetainer: Story;

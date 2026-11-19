@@ -1,0 +1,16 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionTreeTable } from './FusionTreeTable.vue';
+declare const meta: Meta<typeof FusionTreeTable>;
+export default meta;
+type Story = StoryObj<typeof FusionTreeTable>;
+export declare const Default: Story;
+export declare const TaskLists: Story;
+export declare const TaskListsFlat: Story;
+export declare const StickyHeader: Story;
+export declare const PlainText: Story;
+export declare const Collapsed: Story;
+export declare const NoSelection: Story;
+export declare const FixedHeight: Story;
+export declare const Empty: Story;
+export declare const Loading: Story;
+export declare const ColumnOrderStored: Story;

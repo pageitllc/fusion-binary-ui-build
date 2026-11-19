@@ -1,0 +1,14 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionVersionList } from './FusionVersionList.vue';
+declare const meta: Meta<typeof FusionVersionList>;
+export default meta;
+type Story = StoryObj<typeof FusionVersionList>;
+export declare const Default: Story;
+export declare const FirstSend: Story;
+export declare const ChangesRequested: Story;
+export declare const FixedReadyForNext: Story;
+export declare const Approved: Story;
+export declare const NothingSent: Story;
+export declare const AllOpen: Story;
+export declare const Controlled: Story;
+export declare const CustomBody: Story;

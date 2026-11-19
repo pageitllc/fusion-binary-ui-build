@@ -1,0 +1,10 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionSelectionBar } from './FusionSelectionBar.vue';
+declare const meta: Meta<typeof FusionSelectionBar>;
+export default meta;
+type Story = StoryObj<typeof FusionSelectionBar>;
+export declare const Default: Story;
+export declare const ManyActions: Story;
+export declare const DisabledAndLoading: Story;
+export declare const AppearsWhenSelected: Story;
+export declare const WithTreeTable: Story;

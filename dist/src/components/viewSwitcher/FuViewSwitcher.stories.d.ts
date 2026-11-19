@@ -1,0 +1,10 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FuViewSwitcher } from './FuViewSwitcher.vue';
+declare const meta: Meta<typeof FuViewSwitcher>;
+export default meta;
+type Story = StoryObj<typeof FuViewSwitcher>;
+export declare const Default: Story;
+export declare const WithDescriptions: Story;
+export declare const HideZeroCounts: Story;
+export declare const AlignRight: Story;
+export declare const WithFooter: Story;

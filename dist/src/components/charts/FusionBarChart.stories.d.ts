@@ -1,0 +1,14 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionBarChart } from './FusionBarChart.vue';
+declare const meta: Meta<typeof FusionBarChart>;
+export default meta;
+type Story = StoryObj<typeof FusionBarChart>;
+export declare const Default: Story;
+export declare const Grouped: Story;
+export declare const Stacked: Story;
+export declare const Horizontal: Story;
+export declare const HorizontalStacked: Story;
+export declare const Money: Story;
+export declare const Tall: Story;
+export declare const Loading: Story;
+export declare const Empty: Story;
