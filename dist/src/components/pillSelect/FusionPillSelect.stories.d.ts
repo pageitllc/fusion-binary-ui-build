@@ -1,0 +1,15 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionPillSelect } from './FusionPillSelect.vue';
+declare const meta: Meta<typeof FusionPillSelect>;
+export default meta;
+type Story = StoryObj<typeof FusionPillSelect>;
+export declare const Default: Story;
+export declare const Filled: Story;
+export declare const WithIcons: Story;
+export declare const Sizes: Story;
+export declare const OneOptionDisabled: Story;
+export declare const WholeGroupDisabled: Story;
+export declare const ReadOnly: Story;
+export declare const NarrowSoItWraps: Story;
+export declare const OneScrollingLine: Story;
+export declare const KeyboardAndLabels: Story;

@@ -1,0 +1,18 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionAutocomplete } from './FusionAutocomplete.vue';
+declare const meta: Meta<typeof FusionAutocomplete>;
+export default meta;
+type Story = StoryObj<typeof FusionAutocomplete>;
+export declare const Default: Story;
+export declare const WithAvatars: Story;
+export declare const MultipleSelect: Story;
+export declare const AsyncSearch: Story;
+export declare const WithError: Story;
+export declare const WithMeta: Story;
+export declare const GroupedOptions: Story;
+export declare const GroupedMultipleSelect: Story;
+/**
+ * Required: a red * after the label (same as FusionTextInput) and aria-required on the trigger.
+ * Visual only: validation stays in your form.
+ */
+export declare const Required: Story;

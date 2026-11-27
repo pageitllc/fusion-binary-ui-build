@@ -1,0 +1,13 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionDetailsList } from './FusionDetailsList.vue';
+declare const meta: Meta<typeof FusionDetailsList>;
+export default meta;
+type Story = StoryObj<typeof FusionDetailsList>;
+export declare const Default: Story;
+export declare const HiddenForTeamMembers: Story;
+export declare const Divided: Story;
+export declare const Stacked: Story;
+export declare const CustomValues: Story;
+export declare const WithActions: Story;
+export declare const Loading: Story;
+export declare const WithoutCard: Story;

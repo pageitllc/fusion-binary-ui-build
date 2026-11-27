@@ -1,0 +1,14 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionTextArea } from './FusionTextArea.vue';
+declare const meta: Meta<typeof FusionTextArea>;
+export default meta;
+type Story = StoryObj<typeof FusionTextArea>;
+export declare const Outline: Story;
+export declare const Subtle: Story;
+export declare const PlainVariant: Story;
+export declare const WithError: Story;
+export declare const Large: Story;
+export declare const Required: Story;
+export declare const TypeformVariant: Story;
+export declare const TypeformCustomStyle: Story;
+export declare const ReadOnly: Story;

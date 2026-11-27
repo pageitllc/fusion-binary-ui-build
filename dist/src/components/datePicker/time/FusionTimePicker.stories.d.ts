@@ -1,0 +1,12 @@
+import { default as FusionTimePicker } from './FusionTimePicker.vue';
+import { Meta, StoryObj } from '@storybook/vue3';
+declare const meta: Meta<typeof FusionTimePicker>;
+export default meta;
+type Story = StoryObj<typeof FusionTimePicker>;
+export declare const Default: Story;
+export declare const Format24h: Story;
+export declare const Format12hPreseeded: Story;
+export declare const FifteenMinuteInterval: Story;
+export declare const WithError: Story;
+export declare const Disabled: Story;
+export declare const FormatComparison: Story;

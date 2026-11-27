@@ -1,0 +1,14 @@
+import { Meta, StoryObj } from '@storybook/vue3';
+import { default as FusionDonut } from './FusionDonut.vue';
+declare const meta: Meta<typeof FusionDonut>;
+export default meta;
+type Story = StoryObj<typeof FusionDonut>;
+export declare const Default: Story;
+export declare const Money: Story;
+export declare const LegendBelow: Story;
+export declare const NoLegend: Story;
+export declare const Thick: Story;
+export declare const Budget: Story;
+export declare const CustomCenter: Story;
+export declare const Empty: Story;
+export declare const OneSlice: Story;
